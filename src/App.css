@@ -1,38 +1,64 @@
-.App {
+:root {
+  --color01: #6A414A;
+  --color02: #AA9377;
+  --color03: #f7f6EE;
+  --color04: #e5DeD6;
+}
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+a {
+  color: var(--color01);
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--color04);
+}
+
+body {
+  background-color: var(--color01);
+  background-image: url("./images/TOPOGRAPHICAL_HUGE.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+Header {
+  text-align: center;
+  background-color: #AA9377;
+  border-radius: 10px;
+  width: 0vw;
+}
+
+li {
+  display: inline-flex;
+}
+
+.linkCard {
+  background-color: var(--color02);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1000px){
+  body {
+      margin-top: 40px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a {
+      color: var(--color03);
   }
-  to {
-    transform: rotate(360deg);
+  .linkCard {
+      background-color: var(--color01);
+      color: var(--color02);
   }
+  header {
+      background-color: var(--color01);
+  }   
 }
