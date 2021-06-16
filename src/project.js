@@ -13,6 +13,10 @@ export var projectList = [
         nameofProject: 'Password Generator',
         link: 'https://crispycoder817.github.io/PasswordGenerator/',
         repo: 'https://github.com/CrispyCoder817/PasswordGenerator'
+    },
+    {
+        nameofProject: 'Weather Dashboard',
+        link: 'https://crispycoder817.github.io/WeatherDashboard/',
+        repo: 'https://github.com/CrispyCoder817/WeatherDashboard'
     }
-    
 ]
