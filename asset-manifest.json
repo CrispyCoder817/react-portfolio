@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d1624467.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d8b56ecf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d8b56ecf.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.f8812455.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f8812455.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/react-portfolio/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.5ca2b76f.chunk.js": "/react-portfolio/static/js/2.5ca2b76f.chunk.js",
+    "static/js/2.5ca2b76f.chunk.js.map": "/react-portfolio/static/js/2.5ca2b76f.chunk.js.map",
+    "static/js/3.242c2179.chunk.js": "/react-portfolio/static/js/3.242c2179.chunk.js",
+    "static/js/3.242c2179.chunk.js.map": "/react-portfolio/static/js/3.242c2179.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/react-portfolio/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.d1624467.chunk.css.map": "/react-portfolio/static/css/main.d1624467.chunk.css.map",
+    "static/js/2.5ca2b76f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5ca2b76f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-portfolio/static/media/TOPOGRAPHICAL_HUGE.1a600dc9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8812455.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.5ca2b76f.chunk.js",
+    "static/css/main.d1624467.chunk.css",
+    "static/js/main.d8b56ecf.chunk.js"
+  ]
+}
