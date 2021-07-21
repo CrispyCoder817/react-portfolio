@@ -11,7 +11,11 @@
   }
   
   a {
+    display: flex;
     color: var(--color01);
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
   }
   a:link {
     text-decoration: none;
@@ -20,31 +24,35 @@
     text-decoration: none;
     color: var(--color04);
   }
-  
-  /* body {
-    background-color: var(--color01);
-    background-image: url("./images/TOPOGRAPHICAL_HUGE.svg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-  
+    
   Header {
-    text-align: center;
     background-color: #AA9377;
-    border-radius: 10px;
-    width: 0vw;
+    border-radius: 1vh;
+    width: 10vw;
+    align-items: center;
+    margin: 2vh 2vw;
+    padding: 4vh 4vw;
+    display: flex; 
   }
   
   li {
     display: inline-flex;
+    height: 2vh;
   }
   
   .linkCard {
+    display: flex;
     background-color: var(--color02);
+    text-align: left;
+    padding: 2vh 1vw;
+    margin: .5%;
+    flex-wrap: wrap;
     text-align: center;
+  }
+
+  .col {
+    width: 25vw;
+    height: 10vh;
   }
   
   @media screen and (max-width: 1000px){

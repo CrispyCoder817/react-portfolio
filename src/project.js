@@ -18,5 +18,10 @@ export var projectList = [
         nameofProject: 'Weather Dashboard',
         link: 'https://crispycoder817.github.io/WeatherDashboard/',
         repo: 'https://github.com/CrispyCoder817/WeatherDashboard'
+    },
+    {
+        nameofProject: 'Shaw-PPC',
+        link: 'https://wall-pro.herokuapp.com/',
+        repo: 'https://github.com/CrispyCoder817/shaw-ppc'
     }
 ]
